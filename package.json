@@ -20,15 +20,15 @@
   "homepage": "https://github.com/sottenad/jservice-node#readme",
   "dependencies": {
     "@hapi/hapi": "^18.4.0",
-    "axios": "^0.19.0",
-    "cheerio": "^1.0.0-rc.3",
-    "joi": "^14.3.1",
-    "moment": "^2.24.0",
     "mongoose": "^5.7.13",
-    "path": "^0.12.7",
-    "puppeteer": "^2.0.0"
+    "path": "^0.12.7"
   },
   "devDependencies": {
+    "cheerio": "^1.0.0-rc.3",
+    "joi": "^14.3.1",
+    "axios": "^0.19.0",
+    "moment": "^2.24.0",
+    "puppeteer": "^2.0.0",
     "dotenv": "^8.2.0"
   }
 }

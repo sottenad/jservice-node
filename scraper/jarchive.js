@@ -7,7 +7,7 @@ const mongoose = require('mongoose');
 const Category = require('../models/category');
 const Clue = require('../models/clue');
 
-mongoose.connect('mongodb://sottenad:Steve1986!@ds231658.mlab.com:31658/jservice', {useNewUrlParser: true, useUnifiedTopology: true, useFindAndModify: false}).then(
+mongoose.connect(process.env.MONGO_URL, {useNewUrlParser: true, useUnifiedTopology: true, useFindAndModify: false}).then(
   () => { console.log('mongo connected...') },
   err => { console.log(err) }
 );
